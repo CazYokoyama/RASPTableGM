@@ -1092,14 +1092,7 @@ function getBasedir()
 		return("ARCHIVE/UK+0");
 
 	switch(document.getElementById("Day").selectedIndex){
-		case 0: basedir = "UK+0"; break;
-		case 1: basedir = "UK12"; break;
-		case 2: basedir = "UK+1"; break; // Both 4Km runs go into the same directory 
-		case 3: basedir = "UK+2"; break;
-		case 4: basedir = "UK+3"; break;
-		case 5: basedir = "UK+4"; break;
-		case 6: basedir = "UK+5"; break;
-		case 7: basedir = "UK+6"; break;
+		case 0: basedir = "northplains"; break;
 		default: alert("getBasedir: Bad day selector: " + document.getElementById("Day").selectedIndex); break;
 	}
 	return(basedir);
@@ -1174,7 +1167,7 @@ function loadImage(dirn)
 		;
 	}
 	else {
-			imgURL =  Server + getBasedir() + "/FCST/" ;
+			imgURL =  Server + "RASP/GM/" + getBasedir() + "/" ;
 	}
 	// alert( "imgURL = " + imgURL);
 	
