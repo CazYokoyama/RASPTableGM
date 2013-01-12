@@ -15,10 +15,10 @@ corners.Centre = new Array();
 
 // UK 2km (Today)
 corners.Bounds[2] = new google.maps.LatLngBounds(
-    new google.maps.LatLng(49.5374451, -10.8640747), // SW
-    new google.maps.LatLng(59.4576149, 2.7055664)  // NE
+    new google.maps.LatLng(42.2440605, -124.8995972), // SW
+    new google.maps.LatLng(46.8435173, -121.1564026)  // NE
 );
-corners.Centre[2] = new google.maps.LatLng(54.4975281, -4.0792542);
+corners.Centre[2] = new google.maps.LatLng(44.5437889, -123.0279999);
 
 // UK 4km (Tomorrow)
 corners.Bounds[4] = new google.maps.LatLngBounds(
