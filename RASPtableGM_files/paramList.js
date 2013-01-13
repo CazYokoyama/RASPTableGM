@@ -106,35 +106,35 @@ var paramListFull = 	[
 
 /* 43 */ ["optionBoldRed",  "nope1", 				"- - - SOUNDINGS - - -", ""],
 
-/* 44 */ ["",		 "sounding1", 		"#1: KHIO", "Predicted SkewT*LogP Sounding Chart for Exeter"],
+/* 44 */ ["",		 "sounding1", 		"#1: KHIO", "Predicted SkewT*LogP Sounding Chart for Hillsboro airport"],
 
-/* 45 */ ["",		 "sounding2", 		"#2: PDX", "Predicted SkewT*LogP Sounding Chart for Fairford"],
+/* 45 */ ["",		 "sounding2", 		"#2: PDX", "Predicted SkewT*LogP Sounding Chart for Portland airport"],
 
-/* 46 */ ["",		 "sounding3", 		"#3: HaggMicrowave", "Predicted SkewT*LogP Sounding Chart for Hestomonceux"],
+/* 46 */ ["",		 "sounding3", 		"#3: HaggMicrowave", "Predicted SkewT*LogP Sounding Chart for HaggMicrowave"],
 
-/* 47 */ ["",		 "sounding4", 		"#4: McMinnville", "Predicted SkewT*LogP Sounding Chart for Newtown (mid-Wales)"],
+/* 47 */ ["",		 "sounding4", 		"#4: McMinnville", "Predicted SkewT*LogP Sounding Chart for McMinnville"],
 
-/* 48 */ ["",		 "sounding5", 		"#5: White Radar", "Predicted SkewT*LogP Sounding Chart for Cambridge"],
+/* 48 */ ["",		 "sounding5", 		"#5: White Radar", "Predicted SkewT*LogP Sounding Chart for White Radar"],
 
-/* 49 */ ["",		 "sounding6", 		"#6: Marys Peak", "Predicted SkewT*LogP Sounding Chart for Nottingham"],
+/* 49 */ ["",		 "sounding6", 		"#6: Marys Peak", "Predicted SkewT*LogP Sounding Chart for Marys Peak"],
 
-/* 50 */ ["",		 "sounding7", 		"#7: Eugene", "Predicted SkewT*LogP Sounding Chart for Cheviots"],
+/* 50 */ ["",		 "sounding7", 		"#7: Eugene", "Predicted SkewT*LogP Sounding Chart for Eugene"],
 
-/* 51 */ ["",		 "sounding8", 		"#8: Independence", "Predicted SkewT*LogP Sounding Chart for Callander"],
+/* 51 */ ["",		 "sounding8", 		"#8: Independence", "Predicted SkewT*LogP Sounding Chart for Independence"],
 
-/* 52 */ ["",		 "sounding9", 		"#9: Mist", "Predicted SkewT*LogP Sounding Chart for Aboyne"],
+/* 52 */ ["",		 "sounding9", 		"#9: Mist", "Predicted SkewT*LogP Sounding Chart for Mist"],
 
-/* 53 */ ["",		 "sounding10", 		"#10: Buckingham", "Predicted SkewT*LogP Sounding Chart for Buckingham"],
+/* 53 */ ["",		 "sounding10", 		"#10: ", "Predicted SkewT*LogP Sounding Chart for "],
 
-/* 54 */ ["",		 "sounding11", 		"#11: Larkhill", "Predicted SkewT*LogP Sounding Chart for Larkhill"],
+/* 54 */ ["",		 "sounding11", 		"#11: ", "Predicted SkewT*LogP Sounding Chart for "],
 
-/* 55 */ ["",		 "sounding12", 		"#12: Leeds", "Predicted SkewT*LogP Sounding Chart for Leeds"],
+/* 55 */ ["",		 "sounding12", 		"#12: ", "Predicted SkewT*LogP Sounding Chart for "],
 
-/* 56 */ ["",		 "sounding13", 		"#13: Carrickmore-NI", "Predicted SkewT*LogP Sounding Chart for Carrickmore-NI"],
+/* 56 */ ["",		 "sounding13", 		"#13: ", "Predicted SkewT*LogP Sounding Chart for "],
 
-/* 57 */ ["",		 "sounding14", 		"#14: Castor Bay-NI", "Predicted SkewT*LogP Sounding Chart for Castor Bay-NI"],
+/* 57 */ ["",		 "sounding14", 		"#14: ", "Predicted SkewT*LogP Sounding Chart for "],
 
-/* 58 */ ["",		 "sounding15", 		"#15: Talgarth", "Predicted SkewT*LogP Sounding Chart for Talgarth"],
+/* 58 */ ["",		 "sounding15", 		"#15: ", "Predicted SkewT*LogP Sounding Chart for "],
 
 /* 59 */ ["optionBoldRed",  "nope1", 				"- - - MODEL TOPOGRAPHY - - -", ""],
 
