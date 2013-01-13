@@ -138,7 +138,7 @@ function initIt()
 
 	for(var i = 0; i < times.length; i++) {
 		document.getElementById("Time").options[i] = new Option(times[i], times[i]);
-		if(times[i] == "1200")
+		if(times[i] == "1800")
 			document.getElementById("Time").options[i].selected = true;
 	}
 
