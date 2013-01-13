@@ -106,23 +106,23 @@ var paramListFull = 	[
 
 /* 43 */ ["optionBoldRed",  "nope1", 				"- - - SOUNDINGS - - -", ""],
 
-/* 44 */ ["",		 "sounding1", 		"#1: Exeter", "Predicted SkewT*LogP Sounding Chart for Exeter"],
+/* 44 */ ["",		 "sounding1", 		"#1: KHIO", "Predicted SkewT*LogP Sounding Chart for Exeter"],
 
-/* 45 */ ["",		 "sounding2", 		"#2: Fairford", "Predicted SkewT*LogP Sounding Chart for Fairford"],
+/* 45 */ ["",		 "sounding2", 		"#2: PDX", "Predicted SkewT*LogP Sounding Chart for Fairford"],
 
-/* 46 */ ["",		 "sounding3", 		"#3: Herstmonceux", "Predicted SkewT*LogP Sounding Chart for Hestomonceux"],
+/* 46 */ ["",		 "sounding3", 		"#3: HaggMicrowave", "Predicted SkewT*LogP Sounding Chart for Hestomonceux"],
 
-/* 47 */ ["",		 "sounding4", 		"#4: Newtown (mid-Wales)", "Predicted SkewT*LogP Sounding Chart for Newtown (mid-Wales)"],
+/* 47 */ ["",		 "sounding4", 		"#4: McMinnville", "Predicted SkewT*LogP Sounding Chart for Newtown (mid-Wales)"],
 
-/* 48 */ ["",		 "sounding5", 		"#5: Cambridge", "Predicted SkewT*LogP Sounding Chart for Cambridge"],
+/* 48 */ ["",		 "sounding5", 		"#5: White Radar", "Predicted SkewT*LogP Sounding Chart for Cambridge"],
 
-/* 49 */ ["",		 "sounding6", 		"#6: Nottingham", "Predicted SkewT*LogP Sounding Chart for Nottingham"],
+/* 49 */ ["",		 "sounding6", 		"#6: Marys Peak", "Predicted SkewT*LogP Sounding Chart for Nottingham"],
 
-/* 50 */ ["",		 "sounding7", 		"#7: Cheviots", "Predicted SkewT*LogP Sounding Chart for Cheviots"],
+/* 50 */ ["",		 "sounding7", 		"#7: Eugene", "Predicted SkewT*LogP Sounding Chart for Cheviots"],
 
-/* 51 */ ["",		 "sounding8", 		"#8: Callander", "Predicted SkewT*LogP Sounding Chart for Callander"],
+/* 51 */ ["",		 "sounding8", 		"#8: Independence", "Predicted SkewT*LogP Sounding Chart for Callander"],
 
-/* 52 */ ["",		 "sounding9", 		"#9: Aboyne", "Predicted SkewT*LogP Sounding Chart for Aboyne"],
+/* 52 */ ["",		 "sounding9", 		"#9: Mist", "Predicted SkewT*LogP Sounding Chart for Aboyne"],
 
 /* 53 */ ["",		 "sounding10", 		"#10: Buckingham", "Predicted SkewT*LogP Sounding Chart for Buckingham"],
 
