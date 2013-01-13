@@ -1112,6 +1112,7 @@ function loadImage(dirn)
 
 	var T = new Date();			// Instantiate a Date object; initialised to "Now"
 	var str;
+	var utcTable = ["1800", "2100"];
 
 	tValue = document.getElementById("Time").options[tIdx].value;
 
@@ -1195,7 +1196,7 @@ function loadImage(dirn)
 					x = times.length - 1;
 				continue;
 			}
-			t = document.getElementById("Time").options[x].value;
+			t = utcTable[x];
 			if(document.getElementById("Param").value.match("sounding")){
 				isSounding = true;
 				ximgURL = imgURL + document.getElementById("Param").value + ".curr." + t + "lst.d2.png" ;
