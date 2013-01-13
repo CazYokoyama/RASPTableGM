@@ -284,7 +284,7 @@ var	GMparamListFull  = [
 var GMparamListLite  = [
 	paramListFull[0],
 	// paramListFull[1],
-	//paramListFull[2],
+	paramListFull[2],
 	// paramListFull[3],
 	// paramListFull[4],
 	// paramListFull[5],
