@@ -1097,6 +1097,7 @@ function loadImage(dirn)
 
 	var T = new Date();			// Instantiate a Date object; initialised to "Now"
 	var str;
+	var utcTable = ["1800", "2100"];
 
 	tValue = document.getElementById("Time").options[tIdx].value;
 
