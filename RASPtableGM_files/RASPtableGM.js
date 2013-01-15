@@ -1180,7 +1180,7 @@ function loadImage(dirn)
 					x = times.length - 1;
 				continue;
 			}
-			t = tzArray["UTC"][x];
+			t = document.getElementById("Time").options[x].value;
 			if(document.getElementById("Param").value.match("sounding")){
 				isSounding = true;
 				ximgURL = imgURL + document.getElementById("Param").value + ".curr." + t + "lst.d2.png" ;
