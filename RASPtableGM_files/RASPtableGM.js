@@ -481,7 +481,7 @@ function addSoundingLink(marker, n)
 		function(){
 			ctrFlag = true;
 			centre = map.getCenter();
-			var sndURL = '<img src="' + Server + getBasedir() + '/';
+			var sndURL = '<img src="' + Server + "RASP/GM/" + getBasedir() + '/';
 			if(archiveMode){
 				sndURL += document.getElementById("archiveYear").value + '/'
 							 + document.getElementById("archiveYear").value
@@ -493,7 +493,7 @@ function addSoundingLink(marker, n)
 							 // + 'lst.d2.png" height=400 width=400>' ;
 			}
 			else {
-				sndURL += 'FCST/sounding' + n + '.curr.'
+				sndURL += 'sounding' + n + '.curr.'
 				       + document.getElementById("Time").value 
 				       + 'lst.d2.png" height=800 width=800>' ;
 				       // + 'lst.d2.png" height=400 width=400>' ;
