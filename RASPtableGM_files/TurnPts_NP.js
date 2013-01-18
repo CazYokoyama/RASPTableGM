@@ -3,7 +3,7 @@ var latlo = new Array(
 '45.60667,-123.03167',
 '45.55333,-123.16',
 '45.85167,-123.24139',
-'44.86667,-123.19833',
+'44.86667,-123.19833'
 );
 
 
@@ -12,7 +12,7 @@ var tpdesc = new Array(
 'NORTH PLAINS',
 'David Hill',
 'Vernonia',
-'Independence',);
+'Independence');
 
 
 
