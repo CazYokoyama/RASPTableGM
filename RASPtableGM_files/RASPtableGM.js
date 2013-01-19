@@ -350,7 +350,7 @@ function newMap()
 }
 	
 
-var TParray = ['LAS','LIN','SUT', 'TAL', 'LAS']; // Any old default Task!
+var TParray = ['NPL','SKP','290', 'HLL', '330']; // Any old default Task!
 var taskCoords = [];
 var taskList = [];
 var taskLine = null;
