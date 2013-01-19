@@ -537,7 +537,7 @@ function init()  //make sure browser supports populating select boxes
 
 	for(i=0;i<latlo.length;i++)  //fill trigraph box with txt tpn & latlo values 
 	{
-		box1.options[i] = new Option(tpn[i],latlo[i]);
+		box1.options[i] = new Option(tpdesc[i],latlo[i]);
 	} 
 
 }
@@ -810,7 +810,7 @@ function init()  //make sure browser supports populating select boxes
 			 <OPTION value=TP6>TP6</OPTION>
 		</SELECT> 
     <TD vAlign=center align=middle width="4%">
-		<SELECT onchange=setTP1(this.options[this.selectedIndex].text) name=tps>
+		<SELECT onchange=setTP1(tpn[this.selectedIndex]) name=tps>
 			<OPTION value=0 selected>TP LOAD</OPTION>
 		</SELECT> </TD></TD>
     <TD vAlign=center align=middle width="4%">
