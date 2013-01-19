@@ -1,0 +1,1 @@
+WRF/NCL/rasp.bparam_resources.ncl
