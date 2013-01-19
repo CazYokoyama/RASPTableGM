@@ -1837,7 +1837,7 @@ function findPosLeft(obj) {
 
 function getTask()
 {
-	window.open("task.html", 'Specify_Task', "width=600,height=300");
+	window.open("task.html", 'Specify_Task', "width=650,height=250");
 }
 
 // Default Values for getGlider()
@@ -1848,7 +1848,7 @@ var tmult   = "1.0";
 
 function selGlider()
 {
-	return popup("glider.html", 'Select_Glider', 480, 300);
+	return popup("glider.html", 'Select_Glider', 510, 260);
 }
 
 
