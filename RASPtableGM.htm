@@ -20,14 +20,11 @@
 <META content=text/javascript http-equiv=Content-Script-Type>
 <SCRIPT type=text/javascript>
 		// CHANGE THESE FOR YOUR SITE
-//		var Server = "http://192.168.1.11/";
 		var Server = "http://www.caztech.com/";
 
 		// Put your times below for January under "STD" and for the "other" time standard under "DST"
 		// These are probably the wrong way round for the Southern Hemisphere :-)
 		var tzArray = ["PST", "PDT"];
-//		tzArray["STD"] = ["1200", "1500", "1800" ];
-//		tzArray["DST"] = ["1300", "1600", "1900" ];
 		tzArray["PST"] = ["0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600"];
 		tzArray["PDT"] = ["1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"];
 
@@ -187,7 +184,7 @@ enabled</FONT></H1></NOSCRIPT>
         <TR><!-- Row 13 -->
           <TD title="User Guide" colSpan=2>
             <DIV align=center><BUTTON 
-            onclick="return popup('http://www.caztech.com/RASP/GM/RASPTableGM8/KnownIssues.htm', 'Known Issues', 600, 400)" 
+            onclick="return popup('KnownIssues.htm', 'Known Issues', 600, 400)" 
             type=submit>Known Issues
             </BUTTON>
             <BUTTON
