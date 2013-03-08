@@ -83,8 +83,9 @@ function initIt()
 
 	var day = document.getElementById("Day");	// save typing
 
-	T.setTime(Now);					// Today
-	day.options[0] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()] + " - Today", dayName[T.getDay()]);
+	day.options[0] = new Option('predict from 0000Z-1600PST');
+	day.options[1] = new Option('predict from 0600Z-2200PST');
+	day.options[2] = new Option('predict from 1200Z-0400PST');
 
 	/***********************/
 	/* Set Default Options */
