@@ -40,7 +40,7 @@ var map;
 var resolution;
 var opacity = 50;	// default opacity
 var centre;
-var zoom = 7;		// default zoom
+var zoom = 8;		// default zoom
 var ctrFlag = false;
 var OPACITY_MAX_PIXELS = 57; // Width of opacity control image
 var opacity_control = "N";
