@@ -127,8 +127,8 @@ function initIt()
 			document.getElementById("Time").options[i].selected = true;
 	}
 
-	document.getElementById("Day").options[0].selected    = true;				// Today
-	document.getElementById("Param").options[1].selected  = true;				// wstar
+	document.getElementById("Day").options[0].selected    = true;				// predict from 0000Z-1600PST
+	document.getElementById("Param").options[2].selected  = true;				// Ht of Critical Updraft Strength(175fpm)
 	document.getElementById("popup").info[0].checked      = true;				// "Value" in infoWindow (not "Day" or "SkewT")
 	document.getElementById("desc").innerHTML             = GMparamListLite[document.getElementById("Param").selectedIndex][3] ;
 
@@ -781,14 +781,8 @@ function getResolution()
 	}
 	else {
 		switch( document.getElementById("Day").options.selectedIndex){
-		case 0:	return( 2);	break;  // Today    - 2Km
-		case 1: return(12);	break;  // Today    - 12Km
-		case 2: return( 4);	break;  // Tomorrow - 4Km
-		case 3:                     // Rest of week - 12Km
-		case 4:
-		case 5:
-		case 6: 
-		case 7: return(12); break;
+		case 0:	return( 1);	break;  // Willamette Valley Oregon 1Km
+		case 1: return( 1);	break;  // Willamette Valley Oregon 1Km
 		default:
 			alert("getResolution: Unknown Day Index!");
 			return(12);	// What else?
@@ -1077,7 +1071,8 @@ function getBasedir()
 		return("ARCHIVE/UK+0");
 
 	switch(document.getElementById("Day").selectedIndex){
-		case 0: basedir = "northplains"; break;
+		case 0: basedir = "northplains-0000z"; break;
+		case 1: basedir = "northplains-1200z"; break;
 		default: alert("getBasedir: Bad day selector: " + document.getElementById("Day").selectedIndex); break;
 	}
 	return(basedir);
