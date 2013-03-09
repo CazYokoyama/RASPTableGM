@@ -84,8 +84,7 @@ function initIt()
 	var day = document.getElementById("Day");	// save typing
 
 	day.options[0] = new Option('predict from 0000Z-1600PST');
-	day.options[1] = new Option('predict from 0600Z-2200PST');
-	day.options[2] = new Option('predict from 1200Z-0400PST');
+	day.options[1] = new Option('predict from 1200Z-0400PST');
 
 	/***********************/
 	/* Set Default Options */
