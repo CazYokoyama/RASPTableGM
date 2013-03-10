@@ -27,7 +27,7 @@ var paramListFull = 	[
 
 /* 4 */ ["",		 "hwcrit",				"Ht of Critical Updraft Strength (225fpm)", "This parameter estimates the height at which the average dry updraft strength drops below 225 fpm and is expected to give better quantitative numbers for the maximum cloudless thermalling height than the BL Top height forecast, especially when mixing results from vertical wind shear rather than thermals.  (Note: the present assumptions tend to underpredict the max. thermalling height for dry consitions.) In the presence of clouds the maximum thermalling height may instead be limited by the cloud base. Being for dry thermals, this parameter omits the effect of cloudsuck"],
 
-/* 5 */ ["optionBoldBlue",		 "dwcrit",				"Depth of Crit Updraft Strength (AGL Hcrit)", "This is the Height above Ground of the Critical Updraft Strength (qv), i.e. when the updraft strength falls below 225 fpm"],
+/* 5 */ ["optionBoldBlue",		 "dwcrit",		"Depth of Crit Updraft Strength (AGL Hcrit)", "This is the Height above Ground of the Critical Updraft Strength (qv), i.e. when the updraft strength falls below 225 fpm"],
 
 /* 6 */ ["",		 "hbl",						"BL Top", "Height of the top of the mixing layer, which for thermal convection is the average top of a dry thermal.  Over flat terrain, maximum thermalling heights will be lower due to the glider descent rate and other factors.  In the presence of clouds (which release additional buoyancy aloft, creating cloudsuck) the updraft top will be above this forecast, but the maximum thermalling height will then be limited by the cloud base. Further, when the mixing results from shear turbulence rather than thermal mixing this parameter is not useful for glider flying.  NB: this BL Top is not the height where the Thermal Index (TI) is zero, which is a criteria used by many simple determinations of the BL top - instead, the RASP BL Top uses a more sophisticated BL Top criteria based on turbulent fluxes"],
 
@@ -37,7 +37,7 @@ var paramListFull = 	[
 
 /* 9 */ ["",		 "bltopvariab",		"Thermal Height Uncertainty", "This parameter estimates the uncertainty (variability) of the BL Top height prediction which can result from meteorological variations.  Specifically, it gives the expected increase of a BL Top height based on a Thermal Index (TI) = 0 criteria should the actual surface temperature be 4 °F warmer than forecast.  Larger values indicate greater uncertainty/variability and thus better thermalling over local 'hot spots' or small-scale topography not resolved by the model.  But larger values also indicate greater sensitivity to error in the predicted surface temperature, so actual conditions have a greater likelihood of differing from those predicted.  Small values often result from the presence of a stable (inversion) layer capping and limiting thermal growth.  This parameter is most easily utilized through relative values, i.e. by first determining a 'typical' value for a location and subsequently noting whether predictions for a given day are for more/less uncertainty than is typical."],
 
-/* 10 */ ["", "experimental1",	"Ht of Critical Updraft Strength (175fpm)", "This parameter estimates the height at which the average dry updraft strength drops below 175 fpm and is expected to give better quantitative numbers for the maximum cloudless thermalling height than the BL Top height forecast, especially when mixing results from vertical wind shear rather than thermals.  (Note: the present assumptions tend to underpredict the max. thermalling height for dry conditions.) In the presence of clouds the maximum thermalling height may instead be limited by the cloud base. Being for dry thermals, this parameter omits the effect of cloudsuck"],
+/* 10 */ ["", "experimental1",			"Ht of Critical Updraft Strength (175fpm)", "This parameter estimates the height at which the average dry updraft strength drops below 175 fpm and is expected to give better quantitative numbers for the maximum cloudless thermalling height than the BL Top height forecast, especially when mixing results from vertical wind shear rather than thermals.  (Note: the present assumptions tend to underpredict the max. thermalling height for dry conditions.) In the presence of clouds the maximum thermalling height may instead be limited by the cloud base. Being for dry thermals, this parameter omits the effect of cloudsuck"],
 
 /* 11 */ ["",		 "zwblmaxmin",		"MSL Height of max/min Wbl", "Height at which the max / min of the vertical velocity in the Boundary Layer occurs, i.e. of \"BL Max Up/Down (Convergence)\" (qv)"],
 
@@ -155,12 +155,12 @@ var paramListLite  = [
 	paramListFull[2],
 	// paramListFull[3],
 	// paramListFull[4],
-	// paramListFull[5],
+	paramListFull[5],
 	// paramListFull[6],
 	// paramListFull[7],
 	// paramListFull[8],
 	// paramListFull[9],
-	paramListFull[10],
+	// paramListFull[10],
 	// paramListFull[11],
 	// paramListFull[12],
 	paramListFull[13],
@@ -287,12 +287,12 @@ var GMparamListLite  = [
 	paramListFull[2],
 	// paramListFull[3],
 	// paramListFull[4],
-	// paramListFull[5],
+	paramListFull[5],
 	// paramListFull[6],
 	// paramListFull[7],
 	// paramListFull[8],
 	// paramListFull[9],
-	paramListFull[10],
+	// paramListFull[10],
 	// paramListFull[11],
 	// paramListFull[12],
 	paramListFull[13],
