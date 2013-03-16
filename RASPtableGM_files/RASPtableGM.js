@@ -482,7 +482,7 @@ function addSoundingLink(marker, n)
 		function(){
 			ctrFlag = true;
 			centre = map.getCenter();
-			var sndURL = '<img src="' + Server + "RASP/GM/" + getBasedir() + '/';
+			var sndURL = '<img src="' + Server + "RASP/GM/RASPTableGM8/chart/" + getBasedir() + '/';
 			if(archiveMode){
 				sndURL += document.getElementById("archiveYear").value + '/'
 							 + document.getElementById("archiveYear").value
@@ -1151,7 +1151,7 @@ function loadImage(dirn)
 		;
 	}
 	else {
-			imgURL =  Server + "RASP/GM/" + getBasedir() + "/" ;
+			imgURL =  Server + "RASP/GM/RASPTableGM8/chart/" + getBasedir() + "/" ;
 	}
 	// alert( "imgURL = " + imgURL);
 	
