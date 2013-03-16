@@ -84,7 +84,8 @@ function initIt()
 	var day = document.getElementById("Day");	// save typing
 
 	day.options[0] = new Option('predict from 0000Z-1700PDT');
-	day.options[1] = new Option('predict from 1200Z-0500PDT');
+	day.options[1] = new Option('predict from 0600Z-2300PDT');
+	day.options[2] = new Option('predict from 1200Z-0500PDT');
 
 	/***********************/
 	/* Set Default Options */
@@ -783,6 +784,7 @@ function getResolution()
 		switch( document.getElementById("Day").options.selectedIndex){
 		case 0:	return( 1);	break;  // Willamette Valley Oregon 1Km
 		case 1: return( 1);	break;  // Willamette Valley Oregon 1Km
+		case 2: return( 1);	break;  // Willamette Valley Oregon 1Km
 		default:
 			alert("getResolution: Unknown Day Index!");
 			return(12);	// What else?
@@ -1072,7 +1074,8 @@ function getBasedir()
 
 	switch(document.getElementById("Day").selectedIndex){
 		case 0: basedir = "northplains-0000z"; break;
-		case 1: basedir = "northplains-1200z"; break;
+		case 1: basedir = "northplains-0600z"; break;
+		case 2: basedir = "northplains-1200z"; break;
 		default: alert("getBasedir: Bad day selector: " + document.getElementById("Day").selectedIndex); break;
 	}
 	return(basedir);
