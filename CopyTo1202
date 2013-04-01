@@ -1,0 +1,3 @@
+#!/bin/sh
+ncftpput -u "caztech@newdigitalrodeo.com" -p "caz_T#ch" newdigitalrodeo.com /RASP/NorthPlains *.html *.png *.data *.jpg *.htm *.kmz
+ncftpput -u "caztech@newdigitalrodeo.com" -p "caz_T#ch" newdigitalrodeo.com /RASP/NorthPlains/RASPtableGM_files RASPtableGM_files/*.js RASPtableGM_files/*.htm RASPtableGM_files/js
