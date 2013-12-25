@@ -87,23 +87,9 @@ function initIt()
 
 	var day = document.getElementById("Day");	// save typing
 
-	T.setTime(Now);					// Today
-	day.options[0] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()] + " - Today", dayName[T.getDay()]);
-	day.options[1] = new Option("Today - Latest data - 4Km ", "UK4");
-
-	T.setTime(Now + mS_Day);	// Tomorrow
-	day.options[2] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-	T.setTime(Now + 2 * mS_Day);
-	day.options[3] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-	T.setTime(Now + 3 * mS_Day);
-	day.options[4] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-	T.setTime(Now + 4 * mS_Day);
-	day.options[5] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-	T.setTime(Now + 5 * mS_Day);
-	day.options[6] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-	T.setTime(Now + 6 * mS_Day);
-	day.options[7] = new Option(dayName[T.getDay()] + ' ' + T.getDate() + ' ' + monthName[T.getMonth()], dayName[T.getDay()]);
-
+	day.options[0] = new Option('predict from 0000Z-1700PDT');
+	day.options[1] = new Option('predict from 0600Z-2300PDT');
+	day.options[2] = new Option('predict from 1200Z-0500PDT');
 
 	/***********************/
 	/* Set Default Options */
