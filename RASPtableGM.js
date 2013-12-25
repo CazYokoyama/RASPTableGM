@@ -469,7 +469,7 @@ function addSoundingLink(marker, n)
 		function(){
 			ctrFlag = true;
 			centre = map.getCenter();
-			var sndURL = '<img src="' + Server + getBasedir() + '/';
+			var sndURL = '<img src="' + Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
 			if(archiveMode){
 				sndURL += document.getElementById("archiveYear").value + '/'
 							 + document.getElementById("archiveYear").value
@@ -1043,14 +1043,9 @@ function getBasedir()
 		return("ARCHIVE/UK+0");
 
 	switch(document.getElementById("Day").selectedIndex){
-		case 0: basedir = "UK+0"; break;
-		case 1: basedir = "UK4"; break;
-		case 2: basedir = "UK+1"; break; // Both 4Km runs go into the same directory 
-		case 3: basedir = "UK+2"; break;
-		case 4: basedir = "UK+3"; break;
-		case 5: basedir = "UK+4"; break;
-		case 6: basedir = "UK+5"; break;
-		case 7: basedir = "UK+6"; break;
+		case 0: basedir = "NorthPlains-0000z"; break;
+		case 1: basedir = "NorthPlains-0600z"; break;
+		case 2: basedir = "NorthPlains-1200z"; break;
 		default: alert("getBasedir: Bad day selector: " + document.getElementById("Day").selectedIndex); break;
 	}
 	return(basedir);
@@ -1126,7 +1121,7 @@ function loadImage(dirn)
 		imgURL = "";
 	}
 	else {
-		imgURL =  Server + getBasedir() + "/FCST/" ;
+		imgURL =  Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
 	}
 
 	// Load image(s) / overlays and next one(s)
