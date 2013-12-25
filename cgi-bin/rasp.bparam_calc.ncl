@@ -1,1 +1,0 @@
-WRF/NCL/rasp.bparam_calc.ncl
