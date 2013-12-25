@@ -14,7 +14,7 @@
 	* Loads image for next time on Day/Param selection
 	* Soundings indicated by Clickable Markers
 	* Archives 
-	* Auto select times for STD / DST
+	* Auto select times for PST / DST
 	* NB: M$ Windows users must ensure TimeZone and "Adjust clock for Daylight Saving" is set in Control Panel->Date & Time
 -->
 
@@ -30,10 +30,10 @@
 		// CHANGE THESE FOR YOUR SITE
 		var Server = "http://www.caztech.com/";
 
-		// Put your times below for January under "STD" and for the "other" time standard under "DST"
+		// Put your times below for January under "PST" and for the "other" time standard under "DST"
 		// These are probably the wrong way round for the Southern Hemisphere :-)
-		var tzArray = ["STD", "DST"];
-		tzArray["STD"] = ["0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600"];
+		var tzArray = ["PST", "DST"];
+		tzArray["PST"] = ["0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600"];
 		tzArray["DST"] = ["1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"];
 
 		// Placeholder - I don't have windowed runs

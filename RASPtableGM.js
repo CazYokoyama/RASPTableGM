@@ -122,7 +122,7 @@ function initIt()
 	dateNow = new Date();
 	dateJan = new Date(2012, 0, 1)
 	if(dateNow.getTimezoneOffset() == dateJan.getTimezoneOffset())
-		times = tzArray["STD"];
+		times = tzArray["PST"];
 	else
 		times = tzArray["DST"];
 
@@ -923,7 +923,7 @@ function resetArchive()
 }
 
 /* 
- * Set the times in the table for STD or DST
+ * Set the times in the table for PST or DST
  *
  */
 function setTimes()
@@ -952,7 +952,7 @@ function setTimes()
 		}
 	}
 	if(dateNow.getTimezoneOffset() == dateJan.getTimezoneOffset())
-		times = tzArray["STD"];
+		times = tzArray["PST"];
 	else
 		times = tzArray["DST"];
 
