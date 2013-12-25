@@ -113,7 +113,7 @@ function initIt()
 	document.getElementById("statusButton").onclick  = getStatus;
 
 
-	/* Install Time options and adjust Table times for DST
+	/* Install Time options and adjust Table times for PDT
 		 Assume that Standard Time is in force on Jan 1 2012
 		 And Daylight Saving Time in the summer"
 		 May be incorrect in southern hemisphere
@@ -124,7 +124,7 @@ function initIt()
 	if(dateNow.getTimezoneOffset() == dateJan.getTimezoneOffset())
 		times = tzArray["PST"];
 	else
-		times = tzArray["DST"];
+		times = tzArray["PDT"];
 
 	for(var i = 0; i < times.length; i++) {
 		document.getElementById("Time").options[i] = new Option(times[i], times[i]);
@@ -923,7 +923,7 @@ function resetArchive()
 }
 
 /* 
- * Set the times in the table for PST or DST
+ * Set the times in the table for PST or PDT
  *
  */
 function setTimes()
@@ -954,7 +954,7 @@ function setTimes()
 	if(dateNow.getTimezoneOffset() == dateJan.getTimezoneOffset())
 		times = tzArray["PST"];
 	else
-		times = tzArray["DST"];
+		times = tzArray["PDT"];
 
         // Keep the same time selected
 	Tindex = document.getElementById("Time").selectedIndex;
