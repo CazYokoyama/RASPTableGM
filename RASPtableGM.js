@@ -745,14 +745,9 @@ function getResolution()
 	}
 	else {
 		switch( document.getElementById("Day").options.selectedIndex){
-		case 0:	return( 2);	break;  // Today    - 2Km
-		case 1: return( 4);	break;  // Today    - 4Km
-		case 2: return( 4);	break;  // Tomorrow - 4Km
-		case 3:                     // Rest of week - 12Km
-		case 4:
-		case 5:
-		case 6: 
-		case 7: return(12); break;
+		case 0:	return( 1);	break;  // Willamette Valley Oregon 1Km
+		case 1: return( 1);	break;  // Willamette Valley Oregon 1Km
+		case 2: return( 1);	break;  // Willamette Valley Oregon 1Km
 		default:
 			alert("getResolution: Unknown Day Index!");
 			return(12);	// What else?
