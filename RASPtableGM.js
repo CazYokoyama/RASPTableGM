@@ -469,7 +469,7 @@ function addSoundingLink(marker, n)
 		function(){
 			ctrFlag = true;
 			centre = map.getCenter();
-			var sndURL = '<img src="' + Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
+			var sndURL = '<img src="' + Server + 'chart/' + getBasedir() + '/';
 			if(archiveMode){
 				sndURL += document.getElementById("archiveYear").value + '/'
 							 + document.getElementById("archiveYear").value
@@ -1116,7 +1116,7 @@ function loadImage(dirn)
 		imgURL = "";
 	}
 	else {
-		imgURL =  Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
+		imgURL =  Server + 'chart/' + getBasedir() + '/';
 	}
 
 	// Load image(s) / overlays and next one(s)
