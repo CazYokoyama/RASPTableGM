@@ -481,7 +481,7 @@ function addSoundingLink(marker, n)
 							 // + 'lst.d2.png" height=400 width=400>' ;
 			}
 			else {
-				sndURL += 'FCST/sounding' + n + '.curr.'
+				sndURL += 'sounding' + n + '.curr.'
 				       + document.getElementById("Time").value 
 				       + 'lst.d2.png" height=800 width=800>' ;
 				       // + 'lst.d2.png" height=400 width=400>' ;
