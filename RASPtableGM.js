@@ -1038,9 +1038,9 @@ function getBasedir()
 		return("ARCHIVE/UK+0");
 
 	switch(document.getElementById("Day").selectedIndex){
-		case 0: basedir = "NorthPlains-0000z"; break;
-		case 1: basedir = "NorthPlains-0600z"; break;
-		case 2: basedir = "NorthPlains-1200z"; break;
+		case 0: basedir = "ephrata-0000z"; break;
+		case 1: basedir = "ephrata-0600z"; break;
+		case 2: basedir = "ephrata-1200z"; break;
 		default: alert("getBasedir: Bad day selector: " + document.getElementById("Day").selectedIndex); break;
 	}
 	return(basedir);
