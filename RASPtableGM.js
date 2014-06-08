@@ -46,7 +46,7 @@ var map;
 var resolution;
 var opacity = 50;	// default opacity
 var centre;
-var zoom = 8;		// default zoom
+var zoom = 7;		// default zoom
 var ctrFlag = false;
 var OPACITY_MAX_PIXELS = 57; // Width of opacity control image
 var opacity_control = "N";
@@ -469,7 +469,7 @@ function addSoundingLink(marker, n)
 		function(){
 			ctrFlag = true;
 			centre = map.getCenter();
-			var sndURL = '<img src="' + Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
+			var sndURL = '<img src="' + Server + 'RASP/ephrata/chart/' + getBasedir() + '/';
 			if(archiveMode){
 				sndURL += document.getElementById("archiveYear").value + '/'
 							 + document.getElementById("archiveYear").value
@@ -1116,7 +1116,7 @@ function loadImage(dirn)
 		imgURL = "";
 	}
 	else {
-		imgURL =  Server + 'RASP/NorthPlains/chart/' + getBasedir() + '/';
+		imgURL =  Server + 'RASP/ephrata/chart/' + getBasedir() + '/';
 	}
 
 	// Load image(s) / overlays and next one(s)
