@@ -15,14 +15,14 @@ corners.Centre = new Array();
 
 // Willamette Valley Oregon 1Km
 corners.Bounds[1] = new google.maps.LatLngBounds(
-            new google.maps.LatLng(43.4626312, -124.2068787), // SW
-            new google.maps.LatLng(46.1070404, -121.8491211)  // NE
+            new google.maps.LatLng(44.8668213, -121.7677765), // SW
+            new google.maps.LatLng(49.3583221, -116.2947845)  // NE
           );
-corners.Centre[1] = new google.maps.LatLng(44.7848358, -123.0279999);
+corners.Centre[1] = new google.maps.LatLng(47.1125717, -119.0312805);
 
 // predict from 0000Z-1600PST
 corners.Bounds[2] = new google.maps.LatLngBounds(
-    new google.maps.LatLng(43.4626312, -124.2068787), // SW
-    new google.maps.LatLng(46.1070404, -121.8491211)  // NE
+    new google.maps.LatLng(44.8668213, -121.7677765), // SW
+    new google.maps.LatLng(49.3583221, -116.2947845)  // NE
 );
-corners.Centre[2] = new google.maps.LatLng(44.7848358, -123.0279999);
+corners.Centre[2] = new google.maps.LatLng(47.1125717, -119.0312805);
